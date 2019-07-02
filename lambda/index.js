@@ -18,6 +18,9 @@ const client = new Batch()
 exports.handler = async (event) => {
   console.log(util.inspect(event, { depth: 5 }))
 
+  // Object key may have spaces or unicode non-ASCII characters.
+  var srcKey = decodeURIComponent(event.Records[0].s3.object.key.replace(/\+/g, " "));
+
   let result = {}
 
   try {
@@ -27,7 +30,7 @@ exports.handler = async (event) => {
       jobQueue: JOB_QUEUE,
       parameters: {
         bucketName: IMAGES_BUCKET,
-        imageName: event.imageName,
+        imageName: srcKey,
         dynamoTable: IMAGES_BUCKET
       }
     }

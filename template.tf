@@ -3,7 +3,7 @@
 #
 variable "aws_region" {
   description = "AWS region to launch sample"
-  default = "us-east-2"
+  default = "ap-northeast-2"
 }
 
 
