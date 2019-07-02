@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb6119a6-cf69-490b-9bce-22410f914ce5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lambda/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/lambda/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.tf" beforeDir="false" afterPath="$PROJECT_DIR$/template.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/job/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/job/Dockerfile" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template.tf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="368">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/job/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -46,6 +54,7 @@
       <list>
         <option value="$PROJECT_DIR$/lambda/index.js" />
         <option value="$PROJECT_DIR$/template.tf" />
+        <option value="$PROJECT_DIR$/job/Dockerfile" />
       </list>
     </option>
   </component>
@@ -128,7 +137,7 @@
     <frame x="1270" y="-1436" width="1752" height="1229" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25591016" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25591016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -154,9 +163,6 @@
     <entry file="file://$PROJECT_DIR$/job/Gemfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/job/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lambda/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -169,8 +175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template.tf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -178,6 +184,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="805">
           <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="75" selection-start-line="2" selection-start-column="75" selection-end-line="2" selection-end-column="75" />
         </state>
       </provider>
     </entry>
