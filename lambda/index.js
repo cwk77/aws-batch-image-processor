@@ -31,7 +31,7 @@ exports.handler = async (event) => {
       parameters: {
         bucketName: IMAGES_BUCKET,
         imageName: srcKey,
-        dynamoTable: IMAGES_BUCKET
+        dynamoTable: IMAGES_TABLE
       }
     }
 
